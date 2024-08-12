@@ -22,6 +22,11 @@
     font-family: wor;
 }
 
+.para-text{
+    color: rgb(83, 76, 100);
+    font-size: 0.9rem;
+}
+
 
 /* nav styles */
 
@@ -118,4 +123,62 @@ color: white;
 .btn-right{
     background: linear-gradient(90deg,rgb(78, 197, 247),rgb(78, 197, 247));
 
+}
+
+
+/* gamer styles */
+.we-gamer-container{
+    background: linear-gradient(90deg,rgba(255, 66, 165, 0.03),rgba(255, 66, 165, 0.03));
+}
+.we-gamer{
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.gamer-left{
+    width: 60%;
+
+}
+.gamer-right{
+    width: 38%;
+    text-align: right;
+}
+
+.gamer-left img{
+    width: 100%;
+    
+}
+
+.gamer-title{
+    background-image: linear-gradient(90deg,rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.btn-gamer{
+border:none;
+border-radius: 8px;
+padding: 20px 40px;
+color: white;
+background: linear-gradient(90deg,rgb(255, 66, 165),rgb(255, 66, 165));
+
+
+}
+.unleash-title,.purpose-text{
+    color: rgb(83, 76, 100);
+    
+}
+
+.purpose-text{
+    font-size: 1.2rem;
+    font-weight: 450;
+    margin-bottom: 5px ;
+}
+.unleash-title{
+    margin-top: 5px;
+    
 }
