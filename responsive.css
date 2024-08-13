@@ -1,0 +1,60 @@
+@media screen and (max-width:576px){
+    .header,.play-games{
+        flex-direction: column-reverse;
+    }
+    .we-gamer,.play,.career{
+        flex-direction: column;
+    }
+    .hamburger{
+        display: block;
+    }
+    .nav-right{
+        display: none;
+    }
+    .header-left,.header-right{
+        width:80%;
+        margin: 30px auto;
+        
+       
+    }
+    .gamer-left,.gamer-right{
+        width:100%;
+        margin: 30px 0;
+        text-align: center;
+       
+    }
+ .online-container{
+    margin-top: 250px;
+ }
+
+    .card-container{
+        
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin: 10px auto;
+        
+    }
+    .play-left,.play-right{
+        width: 70%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .play-games-left,.play-games-right{
+        width: 70%;
+        margin: 15px auto;
+        text-align: center;
+
+    }
+    .career-container-left{
+        width:80%;
+        margin: 0 auto;
+    }
+    .career-container-right{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+}
+
+

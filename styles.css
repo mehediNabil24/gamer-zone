@@ -42,6 +42,9 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+.hamburger{
+    display: none;
+}
 .nav-btn{
     background:transparent;
     border: none;
@@ -129,6 +132,9 @@ color: white;
 .btn-right{
     background: linear-gradient(90deg,rgb(78, 197, 247),rgb(78, 197, 247));
 
+}
+.header-para{
+    color: rgb(83, 76, 100);
 }
 
 
@@ -219,26 +225,40 @@ background: linear-gradient(90deg,rgb(255, 66, 165),rgb(255, 66, 165));
     margin-bottom: 20px;
 }
 
-.card-follow {
-    filter: brightness(30%);
+.card {
+    /* filter: brightness(50%); */
 
     position: relative;
     
 }
+.card img:hover{
+    filter: brightness(50%);
+}
 .follow-content{
     position: absolute;
-    top:10vw;
+    top:35%;
+    left:33%;
+    text-align: center;
+    
+    display:none;
 
     
 }
 .follow-text{
-    background: linear-gradient(90.00deg, rgb(255, 66, 165),rgb(255, 66, 165));
-background-clip: text;
-color: transparent;
-font-weight: 600;
-font-size: 1.1rem;
+color: rgb(174, 39, 39);
+margin: 0;
+font-weight: 500;
+
 
 }
+.follow-content span{
+    font-size: 30px;
+    color: white;
+}
+.card img:hover+.follow-content{
+    display: block;
+}
+
 
 /* play styles */
 
@@ -268,10 +288,10 @@ font-size: 1.1rem;
 }
 .child{
     position: absolute;
-    top: 14vw;
-    left: -8vw;
-    width: 16vw;
-    height: 15vw;
+    top: 55%;
+    left: -20%;
+    width: 50%;
+    
 }
 
 
@@ -301,8 +321,8 @@ font-size: 1.1rem;
 .play-games-child{
     position:absolute;
     width: 48%;
-    top: 14vw;
-    left: 20vw;
+    top: 55%;
+    left: 70%;
      
 
 }
@@ -349,4 +369,10 @@ font-size: 1.1rem;
     border-radius: 15px;
     border: none;
     padding: 15px 40px;
+}
+
+
+
+.hide{
+    display: none;
 }
