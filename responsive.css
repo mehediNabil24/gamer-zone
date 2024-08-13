@@ -11,9 +11,13 @@
     .nav-right{
         display: none;
     }
+    .header{
+        gap:40px;
+    }
     .header-left,.header-right{
         width:80%;
         margin: 30px auto;
+        
         
        
     }
@@ -30,14 +34,15 @@
     .card-container{
         
         grid-template-columns: repeat(1, 1fr);
-        width: 80%;
+        width: 70%;
         margin: 10px auto;
         
     }
     .play-left,.play-right{
-        width: 70%;
+        width: 80%;
         margin: 15px auto;
         text-align: center;
+        
     }
     .play-games-left,.play-games-right{
         width: 70%;
