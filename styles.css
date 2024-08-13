@@ -306,3 +306,47 @@ font-size: 1.1rem;
      
 
 }
+
+/* career styles  */
+
+.career-container{
+    background: rgba(255, 66, 165, 1.00);
+    margin: 150px 0;
+
+}
+
+.career{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.career-container-left{
+    width: 50%;
+}
+
+.career-container-right{
+    width: 50%;
+}
+.career-container-right img{
+    width: 100%;
+    height: auto;
+}
+
+.career h1,h5,p{
+    color: white;
+}
+
+.career-text{
+    font-weight: 200;
+    font: 0.9rem;
+}
+
+.career-right{
+    text-align: right;
+}
+.career-btn{
+    color:  rgba(255, 66, 165, 1.00);
+    ;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 40px;
+}
