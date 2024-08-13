@@ -27,6 +27,12 @@
     font-size: 0.9rem;
 }
 
+.shared-clipping{
+    background-image: linear-gradient(90deg,rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+}
+
 
 /* nav styles */
 
@@ -181,4 +187,122 @@ background: linear-gradient(90deg,rgb(255, 66, 165),rgb(255, 66, 165));
 .unleash-title{
     margin-top: 5px;
     
+}
+
+/* online styles */
+.online-container{
+    margin-top: 80px;
+}
+
+.online{
+    margin: 0 auto;
+    max-width:1000px;
+    text-align: center;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+
+.card-container img{
+    width: 100%;
+    height:auto;
+}
+.header-margin{
+    margin: 0;
+}
+.para-margin{
+    
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.card-follow {
+    filter: brightness(30%);
+
+    position: relative;
+    
+}
+.follow-content{
+    position: absolute;
+    top:10vw;
+
+    
+}
+.follow-text{
+    background: linear-gradient(90.00deg, rgb(255, 66, 165),rgb(255, 66, 165));
+background-clip: text;
+color: transparent;
+font-weight: 600;
+font-size: 1.1rem;
+
+}
+
+/* play styles */
+
+.play{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 700px;
+    justify-content:right;
+    align-items: center;
+    
+}
+.play-right{
+    width: 35%;
+    margin-left: 180px;
+}
+.play-left{
+    width: 32%;
+    text-align: right;
+}
+
+.play-right img{
+    width: 100%;
+    height: auto;
+}
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 14vw;
+    left: -8vw;
+    width: 16vw;
+    height: 15vw;
+}
+
+
+
+/* play games styles  */
+
+.play-games{
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+.play-games-left{
+    width: 35%;
+    position: relative;
+    margin-right: 180px;
+}
+.play-games-left img{
+    width: 100%;
+  
+}
+
+.play-games-right{
+    width:38%;
+   
+}
+.play-games-child{
+    position:absolute;
+    width: 48%;
+    top: 14vw;
+    left: 20vw;
+     
+
 }
